@@ -61,9 +61,6 @@ module Associatable
     define_method(name) do
       through_options = self.class.assoc_options[through_name]
       source_options = through_options.model_class.assoc_options[source_name]
-      # p self.class
-      # p through_options.model_class
-      # p source_options.model_class
       start_table = source_options.model_class.table_name
       join_table1 = through_options.model_class.table_name
       result = DBConnection.execute2(<<-SQL)
