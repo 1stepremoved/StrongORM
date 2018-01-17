@@ -1,3 +1,3 @@
-require_relative './lib/strong_orm'
+require_relative 'strong_orm.rb'
 
 binding.pry

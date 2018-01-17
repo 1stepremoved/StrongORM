@@ -1,5 +1,5 @@
 require 'pry'
-require_relative 'sql_object'
+require_relative 'strong_orm/sql_object'
 require 'active_support/inflector'
 
 
