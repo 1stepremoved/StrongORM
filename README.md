@@ -7,4 +7,7 @@ For an example of StrongORM in action, please refer to the demo folder included 
 Setup:
 1) Download the repository and place it in the root folder of your project
 2) Create a sql file to set up your database and tables. Name this file strong_orm.sql and place it in your root folder. Refer to the demo for an example
-3) Include strong_orm.rb in any file where you would like to create models, and that's it!
+3) Set up your models and relations and place them in the models folder. Again, refer to the demo for an example of what this might look like.
+4) Include strong_orm.rb in any file where you would like to create and use models.
+
+You can access your database in the terminal by running 'ruby terminal.rb'
