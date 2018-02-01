@@ -5,9 +5,9 @@ Inspired by ActiveRecord from rails, StrongORM provides a connection to your dat
 For an example of StrongORM in action, please refer to the demo folder included in the github repo.
 
 Setup:
-1) Download the repository and place the 'strongorm_lib' folder in the root folder of your project.
-2) Create a sql file to set up your database and tables. Name this file strong_orm.sql and place it in 'strongorm_lib'. Refer to the demo for an example.
+1) Download the repository and place the ```strongorm_lib``` folder in the root folder of your project.
+2) Create a sql file to set up your database and tables. Name this file strong_orm.sql and place it in ```strongorm_lib```. Refer to the demo for an example.
 3) Set up your models and relations and place them in the models folder. Again, refer to the demo for an example of what this might look like.
 4) Include 'strongorm_lib/strong_orm.rb' in any file where you would like to create and use models.
 
-You can access your database in the terminal by running 'ruby strongorm_lib/terminal.rb'
+You can access your database in the terminal by running ```ruby strongorm_lib/terminal.rb```
