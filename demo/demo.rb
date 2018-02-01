@@ -1,4 +1,4 @@
-require_relative 'strong_orm.rb'
+require_relative '../strongorm_lib/strong_orm.rb'
 require 'pry'
 
 #In this demo, our tables will be cats, humans, and houses
@@ -25,5 +25,4 @@ class House < SQLObject
   finalize!
 end
 
-
-binding.pry
+pry

@@ -2,3 +2,5 @@
 .DS_Store
 .rspec
 spec/
+strongorm_lib/strong_orm.db
+strongorm_lib/strong_orm.sql
