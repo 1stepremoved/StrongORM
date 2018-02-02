@@ -1,6 +1,5 @@
 require_relative 'sql_object'
 require 'active_support/inflector'
-require 'byebug'
 
 class AssocOptions
   attr_accessor :foreign_key, :class_name, :primary_key
