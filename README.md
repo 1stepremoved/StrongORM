@@ -10,4 +10,4 @@ Setup:
 3) Create a ```models``` folder to hold you model classes and place it in the root folder. A model folder is included in this repo with demo models.
 4) Include 'strongorm_lib/strong_orm.rb' in any file where you would like to create and use models.
 
-You can access your database in the terminal by running ```ruby strongorm_lib/terminal.rb``` from you root folder.
+You can access your database in the terminal by running ```ruby strongorm_lib/console.rb``` from you root folder.
