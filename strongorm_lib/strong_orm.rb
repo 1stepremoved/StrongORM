@@ -10,4 +10,4 @@ DBConnection.tables.each do |table_name|
   const.table_name = table_name
 end
 
-Dir["./models/*.rb"].each {|file| require file }
+Dir[File.expand_path("../../models", __FILE__)+"/*.rb"].each {|file| require file }
